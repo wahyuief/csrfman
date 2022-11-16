@@ -1,0 +1,25 @@
+{
+  "name": "wahyuief/csrfman",
+  "description": "Use csrf protection in webman framework.",
+  "keywords": ["csrf", "csrfman", "webman"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/wahyuief/csrfman",
+  "authors": [
+    {
+      "name": "wahyuief",
+      "email": "wahyuief@pm.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "wahyuief\\csrfman\\": "src/"
+    }
+  },
+  "require-dev": {
+    "workerman/webman": "^1.0"
+  }
+}
